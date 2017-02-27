@@ -110,6 +110,7 @@ li.act {
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 .carousel-module {

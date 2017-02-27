@@ -17,6 +17,7 @@ li.active,
 li.act {
   background-color: #fdd9dd;
   @include transition-duration;
+  cursor: pointer;
 }
 
 .carousel-module{
