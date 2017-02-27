@@ -1,0 +1,64 @@
+.banner-img {
+  background: url('../img/banner-01.jpg');
+  background-position: 0px 1400px;
+  background-size: cover;
+  padding: 70px 0 50px 0;
+  position:relative;
+  overflow:hidden;
+  margin-top: 10px;
+}
+
+.banner-shape {
+    border:30px solid #fff;
+    border-bottom:none;
+    border-color:transparent #fff transparent #fff;
+    position:absolute;
+    left:45%;
+    bottom:0;
+
+    &::before, &::after {
+      content:'';
+      position:absolute;
+      width:2500px;
+      bottom:0;
+      height:30px;
+      background:#fff;
+    }
+
+    &::before {
+      right:30px;
+    }
+
+    &::after{
+      left:30px;
+    }
+}
+
+.banner-box {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 100%;
+
+  h1 {
+    color: #FFF;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  span {
+    color: #FFF;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    margin: 20px auto 0 5px;
+    text-align: left;
+    width: 50px;
+  }
+}
+
+
+
+

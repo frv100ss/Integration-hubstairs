@@ -1,0 +1,24 @@
+.list-items {
+	color: $font-color;
+	ul {
+	    padding: 0;
+	    list-style-type: none;
+	}
+
+  li {
+    list-style-type: none;
+     &:last-child {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+li.active,
+li.act {
+  background-color: #fdd9dd;
+  @include transition-duration;
+}
+
+.carousel-module{
+	margin-top: 40px;
+}

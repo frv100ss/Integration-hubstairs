@@ -1,0 +1,39 @@
+
+
+ .btn-primary {
+  border: none;
+  border-radius: 2px;
+  background-color: #f54257;
+  color: #FFF;
+  font-weight: bold;
+  padding : 10px 40px;
+  display: table;
+  margin-left: 40px;
+
+
+
+} 
+
+@media screen and (max-width: 992px) {
+  .btn-primary {
+    display: none;
+  }
+
+
+
+
+  #carousel:after {
+   content:"Commencer mon projet";
+    border: none;
+    border-radius: 2px;
+    background-color: #f54257;
+    color: #FFF;
+    font-weight: bold;
+    padding : 10px 40px;
+    display: table;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    }
+}
+
